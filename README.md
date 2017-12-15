@@ -7,7 +7,7 @@ generate the PAFs vector and heatmap for network.
 ## transform.py
 some preprocesson image
 
-
+file structure:
 -data.py
 --transform
 
