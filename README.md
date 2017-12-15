@@ -6,11 +6,12 @@ Original code come from https://github.com/last-one/Pytorch_Realtime_Multi-Perso
 generate the PAFs vector and heatmap for network.
 ## transform.py
 some preprocesson image
-------------------------------------
+
+
 -data.py
 --transform
 
 -coco.py
 --mask.py
 ---_mask.py
-------------------------------------
+
