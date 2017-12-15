@@ -8,10 +8,10 @@ generate the PAFs vector and heatmap for network.
 some preprocesson image
 
 ## file structure:
--data.py
--transform
+- data.py
+- transform
 
--coco.py
--mask.py
--_mask.py
+- coco.py
+- mask.py
+- _mask.py
 
