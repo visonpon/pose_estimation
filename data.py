@@ -13,7 +13,7 @@ import math
 import json
 from PIL import Image
 import cv2
-import Mytransforms
+import transform
 
 def read_data_file(file_dir):
 
@@ -164,10 +164,10 @@ class CocoFolder(data.Dataset):
         vecmap = generate_vector(vecmap, cnt, kpt, self.vec_pair, self.stride, self.theta)
         vecmap = vecmap * mask
 
-        img = Mytransforms.normalize(Mytransforms.to_tensor(img), [128.0, 128.0, 128.0], [256.0, 256.0, 256.0]) # mean, std
-        mask = Mytransforms.to_tensor(mask)
-        heatmap = Mytransforms.to_tensor(heatmap)
-        vecmap = Mytransforms.to_tensor(vecmap)
+        img = transform.normalize(transform.to_tensor(img), [128.0, 128.0, 128.0], [256.0, 256.0, 256.0]) # mean, std
+        mask = transform.to_tensor(mask)
+        heatmap = transform.to_tensor(heatmap)
+        vecmap = transform.to_tensor(vecmap)
 
         return img, heatmap, vecmap, mask
 
