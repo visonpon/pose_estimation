@@ -1,3 +1,7 @@
+"""
+Read data for network.
+It will generate the PAFs vector and heatmap when get the image.
+"""
 import torch
 import torch.utils.data as data
 import numpy as np
