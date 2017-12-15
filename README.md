@@ -5,7 +5,7 @@ Original code come from https://github.com/last-one/Pytorch_Realtime_Multi-Perso
 ## data.py
 generate the PAFs vector and heatmap for network.
 ## transform.py
-some preprocesson image
+some preprocess on image
 
 ## file structure:
 - data.py/transform
