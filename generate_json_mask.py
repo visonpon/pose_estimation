@@ -3,7 +3,7 @@ import sys
 import math
 import json
 import numpy as np
-from pycocotools.coco import COCO
+from coco import COCO
 import argparse
 
 COCO_TO_OURS = [0, 15, 14, 17, 16, 5, 2, 6, 3, 7, 4, 11, 8, 12, 9, 13, 10]
